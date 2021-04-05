@@ -29,13 +29,6 @@ def input_accuracy():
     answer = float(input().strip())
     return answer
 
-
-# def print_answer(result, n, infelicity):
-#     print("Интеграл = " + result + "\n" +
-#           "Число шагов: " + n + "\n" +
-#           "Погрешость: " + infelicity + "\n")
-
-
 def print_answer(result):
     if result[0] == 3:
         print("Функция не определена на заданном отрезке или его части")
